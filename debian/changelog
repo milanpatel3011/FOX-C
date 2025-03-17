@@ -1,6 +1,5 @@
 fox-c (1.0.0-1) unstable; urgency=medium
 
-  * Initial release of fox-c.
-  * Added core functionality for [describe features].
+  * Initial release of Fox-C utility library.
 
- -- Milan Patel <milanrpatel30@gmail.com>  Mon, 01 Jan 2023 12:00:00 +0000
+ -- Milan Patel <milanrpatel30@gmail.com>  Sat, 17 Mar 2025 12:00:00 +0000

@@ -90,3 +90,4 @@ target_link_libraries(example PRIVATE fox-c)
 # if(MSVC)
 #    target_compile_options(fox-c PRIVATE /W4)
 # endif()
+
