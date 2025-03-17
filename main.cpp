@@ -222,33 +222,6 @@ int main() {
     */
 
 
-    /* TIMER
-    foxc::Timer timer; // Start the timer
-    
-    // Some code you want to time
-    fl(0, 1000000) {
-        int temp = 0;
-        temp += i; // Just a dummy operation
-    }
-
-    // Get the elapsed time in seconds
-    double elapsedTime = timer.elapsed();
-    
-    runxt("Elapsed Time: ", elapsedTime, " seconds");
-
-    // Reset the timer and time another operation
-    timer.reset();
-
-    fl(0, 5000000) {
-        int temp = 0;
-        temp += i; // Another dummy operation
-    }
-
-    elapsedTime = timer.elapsed();
-    runxt("Elapsed Time after reset: ", elapsedTime, " seconds");
-
-    */
-
     /* TRIE
     foxc::Trie trie;
     

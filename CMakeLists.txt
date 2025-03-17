@@ -9,61 +9,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 # Include header files
 include_directories(header)
 
-# Create the Fox-C static library
-add_library(fox-c STATIC
-    foxC.h
-    header/loop.h
-    header/garbage.h
-    header/math.h
-    header/run.h
-    header/short.h
-    header/conditional.h
-    header/dsa.h
-    header/priorityQ.h
-    header/trie.h
-    header/unionFind.h
-    header/random.h
-    header/time.h
-    header/string.h
-    header/guard.h
-    header/range.h
-)
+# Add the main program source (main.cpp) and any other .cpp files (e.g., foxC.cpp if you add it)
+add_executable(fox-c main.cpp)
 
-# Create the Fox-C shared library
-add_library(fox-c-shared SHARED
-    foxC.h
-    header/loop.h
-    header/garbage.h
-    header/math.h
-    header/run.h
-    header/short.h
-    header/conditional.h
-    header/dsa.h
-    header/priorityQ.h
-    header/trie.h
-    header/unionFind.h
-    header/random.h
-    header/time.h
-    header/string.h
-    header/guard.h
-    header/range.h
-)
-
-# Set library version
-set_target_properties(fox-c-shared PROPERTIES
-    VERSION ${PROJECT_VERSION}
-    SOVERSION 1
-)
-
-# Optionally, add a version-specific shared library (e.g., for a versioned library)
-# This step is optional but can help with version control for shared libraries.
-# add_library(fox-c-shared-v${PROJECT_VERSION} SHARED ...)
-
-# Install the static and shared libraries
-install(TARGETS fox-c fox-c-shared
-    ARCHIVE DESTINATION lib
-    LIBRARY DESTINATION lib
-)
+# Optionally, if you have a source file for the library like foxC.cpp, add it to the target
+# target_sources(fox-c PRIVATE foxC.cpp)
 
 # Install the header files
 install(FILES foxC.h
@@ -74,20 +24,8 @@ install(DIRECTORY header/
     FILES_MATCHING PATTERN "*.h"
 )
 
-# Optionally, provide an example executable (main.cpp)
-# You can remove this section if you don't want an example executable.
-add_executable(example main.cpp)
-target_link_libraries(example PRIVATE fox-c)
+# Find and link pthreads for threading support
+find_package(Threads REQUIRED)
+target_link_libraries(fox-c Threads::Threads)
 
-# Optional: Enable testing if desired (can be removed if unnecessary)
-# enable_testing()
-# add_test(NAME example_test COMMAND example)
-
-# Optionally set include paths (only if needed for some users to get auto-completion)
-# target_include_directories(example PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/header)
-
-# Optional: Set up specific compiler options, warnings, or debug flags
-# if(MSVC)
-#    target_compile_options(fox-c PRIVATE /W4)
-# endif()
-
+# Optionally add more target settings or tests here if needed

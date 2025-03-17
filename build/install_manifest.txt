@@ -1,0 +1,15 @@
+/usr/local/include/fox-c/foxC.h
+/usr/local/include/fox-c/random.h
+/usr/local/include/fox-c/math.h
+/usr/local/include/fox-c/garbage.h
+/usr/local/include/fox-c/priorityQ.h
+/usr/local/include/fox-c/guard.h
+/usr/local/include/fox-c/run.h
+/usr/local/include/fox-c/loop.h
+/usr/local/include/fox-c/short.h
+/usr/local/include/fox-c/conditional.h
+/usr/local/include/fox-c/dsa.h
+/usr/local/include/fox-c/trie.h
+/usr/local/include/fox-c/string.h
+/usr/local/include/fox-c/range.h
+/usr/local/include/fox-c/unionFind.h

@@ -174,38 +174,12 @@ fox-c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox-c.dir/build.make CMakeFiles/fox-c.dir/build
 .PHONY : fox-c/fast
 
-#=============================================================================
-# Target rules for targets named fox-c-shared
-
-# Build rule for target.
-fox-c-shared: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fox-c-shared
-.PHONY : fox-c-shared
-
-# fast build rule for target.
-fox-c-shared/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox-c-shared.dir/build.make CMakeFiles/fox-c-shared.dir/build
-.PHONY : fox-c-shared/fast
-
-#=============================================================================
-# Target rules for targets named example
-
-# Build rule for target.
-example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example
-.PHONY : example
-
-# fast build rule for target.
-example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/build
-.PHONY : example/fast
-
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox-c.dir/build.make CMakeFiles/fox-c.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -213,7 +187,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox-c.dir/build.make CMakeFiles/fox-c.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -221,7 +195,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example.dir/build.make CMakeFiles/example.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fox-c.dir/build.make CMakeFiles/fox-c.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -236,9 +210,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... example"
 	@echo "... fox-c"
-	@echo "... fox-c-shared"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
