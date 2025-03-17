@@ -1,0 +1,9 @@
+/home/milanp3011/Fox-C/build/CMakeFiles/fox-c.dir
+/home/milanp3011/Fox-C/build/CMakeFiles/fox-c-shared.dir
+/home/milanp3011/Fox-C/build/CMakeFiles/example.dir
+/home/milanp3011/Fox-C/build/CMakeFiles/edit_cache.dir
+/home/milanp3011/Fox-C/build/CMakeFiles/rebuild_cache.dir
+/home/milanp3011/Fox-C/build/CMakeFiles/list_install_components.dir
+/home/milanp3011/Fox-C/build/CMakeFiles/install.dir
+/home/milanp3011/Fox-C/build/CMakeFiles/install/local.dir
+/home/milanp3011/Fox-C/build/CMakeFiles/install/strip.dir

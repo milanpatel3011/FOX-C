@@ -1,0 +1,13 @@
+Source: fox-c
+Maintainer: Milan Patel <milanrpatel30@gmail.com>
+Section: libs
+Priority: optional
+Homepage: https://github.com/your-github/fox-c
+Standards-Version: 4.6.0
+Build-Depends: debhelper (>= 12), cmake, g++
+
+Package: libfox-c-dev
+Architecture: amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}, libc6 (>= 2.31), libtbb-dev
+Description: Fox-C - A lightweight C++ utility library
+ A simple and powerful C++ library for easy coding.
