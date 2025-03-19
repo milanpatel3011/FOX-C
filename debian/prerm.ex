@@ -1,5 +1,5 @@
 #!/bin/sh
-# prerm script for libfox-c.
+# prerm script for fox-c.
 #
 # See: dh_installdeb(1).
 

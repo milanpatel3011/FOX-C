@@ -1,5 +1,5 @@
-libfox-c (1.0.0-1) UNRELEASED; urgency=medium
+fox-c (1.0.0-1) unstable; urgency=medium
 
   * Initial release.
 
- -- Milan Patel <milanrpatel30@gmail.com>  Tue, 17 Oct 2023 19:16:45 -0400
+ -- Milan Patel <milanrpatel30@gmail.com>  Wed, 19 Mar 2025 08:45:20 -0400

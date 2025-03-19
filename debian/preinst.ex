@@ -1,5 +1,5 @@
 #!/bin/sh
-# preinst script for libfox-c.
+# preinst script for fox-c.
 #
 # See: dh_installdeb(1).
 

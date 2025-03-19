@@ -1,5 +1,5 @@
 #!/bin/sh
-# postinst script for libfox-c.
+# postinst script for fox-c.
 #
 # See: dh_installdeb(1).
 

@@ -2,17 +2,23 @@ cmake_minimum_required(VERSION 3.10)
 project(fox-c VERSION 1.0.0 LANGUAGES CXX)
 
 # Include headers
-include_directories(${PROJECT_SOURCE_DIR}/header)
+include_directories(${PROJECT_SOURCE_DIR})
 
-# Add library
-add_library(fox-c SHARED main.cpp)
+# Create the library
+add_library(fox-c STATIC ${PROJECT_SOURCE_DIR}/main.cpp)
 
-# Install library
+# Install the library
 install(TARGETS fox-c
-        LIBRARY DESTINATION lib
         ARCHIVE DESTINATION lib
-        PUBLIC_HEADER DESTINATION include/fox-c)
+        LIBRARY DESTINATION lib
+        )
 
-# Install headers
-install(DIRECTORY headers/ DESTINATION include/fox-c)
-install(FILES foxC.h DESTINATION include/fox-c)
+# Install the header file
+install(FILES ${PROJECT_SOURCE_DIR}/foxC.h
+        DESTINATION include/fox-c
+        )
+
+# Install all headers from the header folder
+install(DIRECTORY ${PROJECT_SOURCE_DIR}/header/
+        DESTINATION include/fox-c/header
+        )

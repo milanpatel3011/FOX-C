@@ -1,6 +1,6 @@
-% libfox-c(SECTION) | User Commands
+% fox-c(SECTION) | User Commands
 %
-% "March 18 2025"
+% "March 19 2025"
 
 [comment]: # The lines above form a Pandoc metadata block. They must be
 [comment]: # the first ones in the file.
@@ -33,24 +33,24 @@
 
 # NAME
 
-libfox-c - program to do something
+fox-c - program to do something
 
 # SYNOPSIS
 
-**libfox-c** **-e** _this_ [**\-\-example=that**] [{**-e** | **\-\-example**} _this_]
+**fox-c** **-e** _this_ [**\-\-example=that**] [{**-e** | **\-\-example**} _this_]
                  [{**-e** | **\-\-example**} {_this_ | _that_}]
 
-**libfox-c** [{**-h** | *\-\-help**} | {**-v** | **\-\-version**}]
+**fox-c** [{**-h** | *\-\-help**} | {**-v** | **\-\-version**}]
 
 # DESCRIPTION
 
-This manual page documents briefly the **libfox-c** and **bar** commands.
+This manual page documents briefly the **fox-c** and **bar** commands.
 
 This manual page was written for the Debian distribution because the
 original program does not have a manual page. Instead, it has documentation
 in the GNU info(1) format; see below.
 
-**libfox-c** is a program that...
+**fox-c** is a program that...
 
 # OPTIONS
 
@@ -71,11 +71,11 @@ a complete description, see the **info**(1) files.
 
 /etc/foo.conf
 :   The system-wide configuration file to control the behaviour of
-    libfox-c. See **foo.conf**(5) for further details.
+    fox-c. See **foo.conf**(5) for further details.
 
 ${HOME}/.foo.conf
 :   The per-user configuration file to control the behaviour of
-    libfox-c. See **foo.conf**(5) for further details.
+    fox-c. See **foo.conf**(5) for further details.
 
 # ENVIRONMENT
 
@@ -91,7 +91,7 @@ Bad configuration file. Exiting.
 :   The configuration file seems to contain a broken configuration
     line. Use the **\-\-verbose** option, to get more info.
 
-**libfox-c** provides some return codes, that can be used in scripts:
+**fox-c** provides some return codes, that can be used in scripts:
 
     Code Diagnostic
     0 Program exited successfully.

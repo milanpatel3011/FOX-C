@@ -1,34 +1,13 @@
-Source: libfox-c
+Source: fox-c
 Section: libs
 Priority: optional
 Maintainer: Milan Patel <milanrpatel30@gmail.com>
-Rules-Requires-Root: no
-Build-Depends:
- debhelper-compat (= 13),
- cmake,
-Standards-Version: 4.6.2
-Homepage: https://github.com/yourusername/fox-c
-#Vcs-Browser: https://github.com/yourusername/fox-c
-#Vcs-Git: https://github.com/yourusername/fox-c.git
+Build-Depends: cmake, debhelper (>= 9)
+Standards-Version: 4.5.1
+Homepage: https://github.com/milanpatel3011/FOX-C.git
 
-Package: libfox-c-dev
-Section: libdevel
+Package: libfox-c.dev
 Architecture: any
-Multi-Arch: same
-Depends:
- libfox-c (= ${binary:Version}),
- ${misc:Depends},
-Description: Development files for the Fox-C library
- This package provides the header files and static library for the Fox-C library.
- Fox-C is a custom library designed to simplify C++ development by providing
- a unified header for all functionality.
-
-Package: libfox-c
-Architecture: any
-Multi-Arch: same
-Depends:
- ${shlibs:Depends},
- ${misc:Depends},
-Description: Runtime library for Fox-C
- This package contains the shared library for the Fox-C library, which provides
- a unified interface for C++ development.
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A custom library for Fox-C
+ This library provides functionality for Fox-C.

@@ -11,13 +11,13 @@ version=4
 
 # HTTP site (basic).
 #http://example.com/downloads.html \
-#    files/libfox-c-([\d\.]+)\.tar\.gz
+#    files/fox-c-([\d\.]+)\.tar\.gz
 
 # Uncomment to examine an FTP server.
-#ftp://ftp.example.com/pub/libfox-c-(.*)\.tar\.gz
+#ftp://ftp.example.com/pub/fox-c-(.*)\.tar\.gz
 
 # SourceForge hosted projects.
-#http://sf.net/libfox-c/ libfox-c-(.*)\.tar\.gz
+#http://sf.net/fox-c/ fox-c-(.*)\.tar\.gz
 
 # GitHub hosted projects.
 #opts="filenamemangle=s%(?:.*?)?v?(@ANY_VERSION@@ARCHIVE_EXT@)%@PACKAGE@-$1%" \
@@ -30,8 +30,8 @@ version=4
 #    archive/v?@ANY_VERSION@/<project>-v?\d\S*@ARCHIVE_EXT@
 
 # PyPI.
-#https://pypi.debian.net/libfox-c/libfox-c-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
+#https://pypi.debian.net/fox-c/fox-c-(.+)\.(?:zip|tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
 
 # Direct Git.
-#opts="mode=git" http://git.example.com/libfox-c.git \
+#opts="mode=git" http://git.example.com/fox-c.git \
 #    refs/tags/v([\d\.]+)

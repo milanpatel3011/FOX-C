@@ -1,5 +1,5 @@
 #!/bin/sh
-# postrm script for libfox-c.
+# postrm script for fox-c.
 #
 # See: dh_installdeb(1).
 
