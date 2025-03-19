@@ -3,7 +3,7 @@
 // Core Functionalities
 #include "header/loop.h"         // Custom loop utilities
 #include "header/garbage.h"      // Garbage collection
-#include "header/math.h"         // Math operations
+#include "header/maths.h"         // Math operations
 #include "header/run.h"          // Custom output functions
 #include "header/short.h"        // Shortened syntax
 #include "header/conditional.h"  //match condition

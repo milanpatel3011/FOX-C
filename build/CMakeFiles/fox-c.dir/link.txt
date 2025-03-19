@@ -1,1 +1,0 @@
-/usr/bin/c++ "CMakeFiles/fox-c.dir/main.cpp.o" -o fox-c 
