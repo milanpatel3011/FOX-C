@@ -1,13 +1,5 @@
-Source: fox-c
-Section: libs
-Priority: optional
-Maintainer: Milan Patel <milanrpatel30@gmail.com>
-Build-Depends: cmake, debhelper (>= 9)
-Standards-Version: 4.5.1
-Homepage: https://github.com/milanpatel3011/FOX-C.git
-
 Package: libfox-c.dev
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}
 Description: A custom library for Fox-C
  This library provides functionality for Fox-C.

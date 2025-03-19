@@ -1,0 +1,11 @@
+Package: libfox-c.dev
+Source: fox-c
+Version: 1.0.0-1
+Architecture: amd64
+Maintainer: Milan Patel <milanrpatel30@gmail.com>
+Installed-Size: 69
+Section: libs
+Priority: optional
+Homepage: https://github.com/milanpatel3011/FOX-C.git
+Description: A custom library for Fox-C
+ This library provides functionality for Fox-C.

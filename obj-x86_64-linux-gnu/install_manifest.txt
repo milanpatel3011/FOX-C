@@ -1,0 +1,16 @@
+/usr/lib/libfox-c.a
+/usr/include/fox-c/foxC.h
+/usr/include/fox-c/header/random.h
+/usr/include/fox-c/header/garbage.h
+/usr/include/fox-c/header/priorityQ.h
+/usr/include/fox-c/header/guard.h
+/usr/include/fox-c/header/run.h
+/usr/include/fox-c/header/loop.h
+/usr/include/fox-c/header/short.h
+/usr/include/fox-c/header/conditional.h
+/usr/include/fox-c/header/dsa.h
+/usr/include/fox-c/header/trie.h
+/usr/include/fox-c/header/string.h
+/usr/include/fox-c/header/range.h
+/usr/include/fox-c/header/maths.h
+/usr/include/fox-c/header/unionFind.h
