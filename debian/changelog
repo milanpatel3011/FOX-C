@@ -1,5 +1,6 @@
-fox-c (1.0.0-5) noble; urgency=medium
+fox-c (1.0.0-6) focal; urgency=low
 
-  * Initial release.
+  * New release for the PPA with minor fixes and updates.
+  * Updated the documentation for compatibility.
 
- -- Milan Patel <milanrpatel30@gmail.com>  Wed, 19 Mar 2025 08:45:20 -0400
+ -- Milan Patel <milanrpatel30@gmail.com>  Tue, 19 Mar 2025 18:00:00 +0000

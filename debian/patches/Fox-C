@@ -1,0 +1,52 @@
+Description: <short summary of the patch>
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
+ .
+ fox-c (1.0.0-1) noble; urgency=medium
+ .
+   * Initial release.
+Author: Milan Patel <milanrpatel30@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout https://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: (upstream|backport|vendor|other), (<patch-url>|commit:<commit-id>)
+Bug: <upstream-bugtracker-url>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: (no|not-needed|<patch-forwarded-url>)
+Applied-Upstream: <version>, (<commit-url>|commit:<commid-id>)
+Reviewed-By: <name and email of someone who approved/reviewed the patch>
+Last-Update: 2025-03-19
+
+--- /dev/null
++++ fox-c-1.0.0/message.pgp
+@@ -0,0 +1,23 @@
++-----BEGIN PGP MESSAGE-----
++
++hQIMA8flP2ITI5ulAQ/9F12tVWMPyIgBcnryCUXvWWCzht0/ym1NoOyYWweIJx/H
++w7guyXxHLs00JqUJ1+4lxCZqYOyfA3vQ/qtP4ubeYIsDo0xV6PKyhVEY6VWj3nlY
++YN2WxDsNcvfR1xS6gWhzDRShomWrL73Het01O/0Eu2DNbvQOSNS2lfDZq11SIrX8
++TCUJtkhv3AMxwKXoStY0A2UeweeZpl9xuMF5uJQqBWBjZZnjZbh3zHqxWTn93XxA
++GbDurtzGqa/8VR1zr2eVqm6JSDdLjcIxtwknWXRdxYT478GwjzEy4XO9epBTj91l
++9d2Lvu2NQ+B9DfwIuib9RyeOAanIHbHdM9RzTxMgISahdzgSz6M4KS/Tlbps80gi
++02/uoNI7QtsrnFiWeJQLmUZkh84orkTlc7KN+MNcukod5liRc6ZtsF03BSSnxXjj
++8AQOcD4rMIab7uE6EiXckY7wDP5TvuTlvf3fb5ePFXCJNdkWIVDfNvEeDD/NrQQP
++men4e0NRq59TvRjhviQuNw23HwSq/tMEWWW4zVujICiQKf7mGLqlYJpcrJTdpwxP
++Vlf1iXSvD9IfcKhfW0FQ0ewpt4zMKLrWFGv3XeFoLKYwFZnY88Brk6w8W6wZM0TR
++Y+90ajymYsxR8jPF+iUKn37Nt4FEU1IKIN8vkXzXRRMv24pd59zCwOUOoZdaGDTS
++wK0Bz9Uv7XougrFtyJX6JWafK5/7cOjKHs3obgOwpa/DHukLNMp+cAN1V/5Jhuxl
++7NrwrOjFpAe6JQG8EH+vDLo7OWh5ankrHxXMVuJtViwyJKe5YEowgTX547gh7x4d
++j6NTV9v2mwY9mCuATWTqMB7tb15W5xYGgF11/pZaLNLmEcwrv3GEuByTUl1pTuN3
++32Gh6l9PuWgoHRdseLApc1p2zyBu0Jqcg5V+tiScFwzl70RuUDpmmpyFufSeA9Nz
++gRgdsb/biJPJgmtkIlhGXrH8IoPnSegsCBzi4LaiEVJ326pIahcZ4nAhhhjRcP6a
++9sW8Qyj8lpKLiEbbrdBz3lF/lI4pHECIKxcEcDnOB+634XhRbxuYc3zQTWWlFxt4
++8oN3KO94L6hqkBTB3aqWkT41Xr5KrzFBc5dd/FgAFRKExGcHEufELNrkm/S7vWoi
++pM/TmK3lFCiUIRFyI4RtjSt8Usl2mAXYQpb3rWFoKg==
++=1Cfa
++-----END PGP MESSAGE-----
