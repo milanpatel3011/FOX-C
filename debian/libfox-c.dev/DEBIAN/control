@@ -1,8 +1,8 @@
 Package: libfox-c.dev
 Source: fox-c
-Version: 1.0.0-1
+Version: 1.0.0-2
 Architecture: amd64
-Maintainer: Milan Patel <milanrpatel30@gmail.com>
+Maintainer: Milan Patel <milanp3011@unknown>
 Installed-Size: 69
 Section: libs
 Priority: optional

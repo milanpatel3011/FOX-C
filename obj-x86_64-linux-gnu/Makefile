@@ -150,7 +150,7 @@ clean/fast: clean
 .PHONY : clean/fast
 
 # Prepare targets for installation.
-preinstall: all
+preinstall: cmake_check_build_system
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
 .PHONY : preinstall
 

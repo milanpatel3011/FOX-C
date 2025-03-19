@@ -14,6 +14,6 @@ be1562dc252c1db1e310c1319c1a6822  usr/include/fox-c/header/string.h
 ccdff62335887d523265e72e31b74b64  usr/include/fox-c/header/trie.h
 f52d3706243b710bdf2cd26665bb9d4e  usr/include/fox-c/header/unionFind.h
 955e93e442b44d213805735c0fd3c734  usr/lib/libfox-c.a
-5d3350bf3d1a3cc5d766b8e72509d5b1  usr/share/doc/libfox-c.dev/README.Debian
-819b307969dc28caf8214db5921f34ca  usr/share/doc/libfox-c.dev/changelog.Debian.gz
+e3adf3cf26d5bf38d60f853315d89ed7  usr/share/doc/libfox-c.dev/README.Debian
+469644988974377395382e25204dae93  usr/share/doc/libfox-c.dev/changelog.Debian.gz
 3f41fe921990a82bb1f3e91144a27110  usr/share/doc/libfox-c.dev/copyright

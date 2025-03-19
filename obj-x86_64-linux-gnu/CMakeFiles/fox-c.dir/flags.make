@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/milanp3011/fox-c-1.0.0
 
-CXX_FLAGS = -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/home/milanp3011/fox-c-1.0.0=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/home/milanp3011/fox-c-1.0.0=/usr/src/fox-c-1.0.0-1 -Wdate-time -D_FORTIFY_SOURCE=3
+CXX_FLAGS = -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/home/milanp3011/fox-c-1.0.0=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/home/milanp3011/fox-c-1.0.0=/usr/src/fox-c-1.0.0-2 -Wdate-time -D_FORTIFY_SOURCE=3
 
