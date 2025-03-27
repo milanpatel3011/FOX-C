@@ -2,11 +2,12 @@ Source: fox-c
 Section: libs
 Priority: optional
 Maintainer: Milan Patel <milanrpatel30@gmail.com>
-Build-Depends: debhelper (>= 13)
+XSBC-Original-Maintainer: Milan Patel <milanrpatel30@gmail.com>
+Build-Depends: debhelper-compat (= 13), cmake (>= 3.10), g++ (>= 7), pkg-config, dh-cmake
 Standards-Version: 4.5.1
 Homepage: https://github.com/milanpatel3011/FOX-C.git
 
-Package: libfox-c.dev
+Package: libfoxc-dev
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: A custom library for Fox-C

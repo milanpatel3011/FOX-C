@@ -1,6 +1,14 @@
-fox-c (1.0.0-6) focal; urgency=low
+fox-c (1.0.0-10ubuntu2) noble; urgency=medium
 
-  * New release for the PPA with minor fixes and updates.
-  * Updated the documentation for compatibility.
+  * Rebuild for Noble Numbat
 
- -- Milan Patel <milanrpatel30@gmail.com>  Tue, 19 Mar 2025 18:00:00 +0000
+ -- Milan Patel <milanrpatel30@gmail.com>  Mon, 24 Mar 2025 18:00:49 -0400
+
+fox-c (1.0.0-10ubuntu1) noble; urgency=medium
+
+  * Updated for Ubuntu Noble
+  * Fixed compatibility issues for Noble release
+  * 
+
+ -- Milan Patel <milanrpatel30@gmail.com>  Mon, 24 Mar 2025 17:50:54 -0400
+

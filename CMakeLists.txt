@@ -11,6 +11,7 @@ add_library(fox-c STATIC ${PROJECT_SOURCE_DIR}/main.cpp)
 install(TARGETS fox-c
         ARCHIVE DESTINATION lib
         LIBRARY DESTINATION lib
+        PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ
         )
 
 # Install the header file
