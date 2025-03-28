@@ -1,3 +1,9 @@
+fox-c (1.0.1-0ubuntu1) noble; urgency=medium
+
+  * New upstream release
+
+ -- Milan Patel <milanrpatel30@gmail.com>  Thu, 27 Mar 2025 14:05:01 -0400
+
 fox-c (1.0.0-10ubuntu2) noble; urgency=medium
 
   * Rebuild for Noble Numbat
