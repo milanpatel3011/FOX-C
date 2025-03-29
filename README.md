@@ -24,7 +24,7 @@ sudo apt install libfoxc-dev
 ```
 2. Include `foxC.h` in your C++ project:
 ```cpp
-##include <fox-c/foxC.h>
+#include <fox-c/foxC.h>
 ```
 3. For convenience, you can use:
 ```cpp
@@ -39,7 +39,7 @@ This allows you to call functions directly without `foxc::` prefix.
 Include Fox-C in your C++ project by adding:
 
 ```cpp
-#include "foxC.h"
+#include <fox-c/foxC.h>
 using namespace foxc;
 ```
 
