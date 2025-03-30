@@ -42,6 +42,12 @@ Include Fox-C in your C++ project by adding:
 #include <fox-c/foxC.h>
 using namespace foxc;
 ```
+## Compilation & Execution
+
+```cpp
+g++ your_program.cpp -lfox-c -o output
+./output
+```
 
 ### **Output Macros**
 Fox-C provides two main functions to display output:
