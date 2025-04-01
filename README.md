@@ -19,6 +19,7 @@ To use the Fox-C library, follow these steps:
 
 1. Clone the repository or download the `foxC.h` file.
 ```sh
+sudo add-apt-repository ppa:milanp3011/foxc
 sudo apt update
 sudo apt install libfoxc-dev
 ```
